@@ -1,4 +1,4 @@
-# 'Getting and cleaning Data' - Course project
+# 'Getting and cleaning Data' - Readme
 ### Introduction
 Within  this repository, you can find the R file to process the raw data and generate the .txt file for the project of the course 'Getting and cleaning data', which is offered in Coursera.
 
