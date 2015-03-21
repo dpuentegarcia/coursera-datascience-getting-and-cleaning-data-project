@@ -8,7 +8,7 @@ The files processed through the analysis are the following:
 * **`features.txt`** includes the names of 561 features.
 * **`X_train.txt`** contains 7,352 observations corresponding the 561 features from 21 out of the 30 volunteers.
 * **`subject_train.txt`** contains IDs of the volunteers for each observation within `X_train.txt`.
-* **`Y_train.txt`** denotes the activity ID of each observation within `X_train.txt'.
+* **`Y_train.txt`** denotes the activity ID of each observation within `X_train.txt`.
 * **`X_test.txt`** contains 2,947 observations corresponding the 561 features from 9 out of the 30 volunteers.
 * **`Y_test.txt`** denotes the activity ID of each observation within `X_test.txt`.
 * **`subject_test.txt`** contains IDs of the volunteers for each observation within `X_test.txt`.
