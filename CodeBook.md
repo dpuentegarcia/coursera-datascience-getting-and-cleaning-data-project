@@ -19,10 +19,11 @@ The files processed through the analysis are the following:
 * **`features`** lists all the features.
 * **`mean_and_std_columns`** identifies the columns' names containing either 'mean' or 'std'.
 * **`all_info`** combines `merge_data.x`, `merge_data.y`, and `merge_data.subject`, as well as descriptive names of activities.
+* **`average_info`** summarizes `all_info` by calculating the mean of each variable by activity and subject.
 
 ### Transformations
 1. Training and test sets are merged into `merge_data.x`, `merge_data.y`, and `merge_data.subject`.
 2. Measurements related to the mean and standard deviations ar filtered by processing the file `features.txt`.
 3. Replace activities IDs by descriptive activity names from `activity.txt`.
 4. The final dataset `all_info`is obtained by combining  `merge_data.x`, `merge_data.y`, and `merge_data.subject`.
-5.  `all_info` is summarized and exported to  the file `averages_data.txt`, computing the mean of each variable for each activity and each subject.
+5.  `all_info` is summarized and exported to  the file `averages_data.txt`, computing the mean of each variable by activity and subject.
