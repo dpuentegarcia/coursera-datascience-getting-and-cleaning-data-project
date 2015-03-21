@@ -18,7 +18,7 @@ The files processed through the analysis are the following:
 * **`merge_data.subject`** includes IDs of volunteers for each observation in training and test datasets.
 * **`features`** lists all the features.
 * **`mean_and_std_columns`** identifies the columns' names containing either 'mean' or 'std'.
-* **`all_info`** combines `merge_data.x`, `merge_data.y`, and `merge_data.subject`, as well as descriptive names for activities.
+* **`all_info`** combines `merge_data.x`, `merge_data.y`, and `merge_data.subject`, as well as descriptive names of activities.
 
 ### Transformations
 1. Training and test sets are merged into `merge_data.x`, `merge_data.y`, and `merge_data.subject`.
