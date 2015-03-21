@@ -26,4 +26,4 @@ The files processed through the analysis are the following:
 2. Measurements related to the mean and standard deviations ar filtered by processing the file `features.txt`.
 3. Replace activities IDs by descriptive activity names from `activity.txt`.
 4. The final dataset `all_info`is obtained by combining  `merge_data.x`, `merge_data.y`, and `merge_data.subject`.
-5.  `all_info` is summarized and exported to  the file `averages_data.txt`, computing the mean of each variable by activity and subject.
+5.  `all_info` is summarized into `average_info` and exported to  the file `averages_data.txt`, computing the mean of each variable by activity and subject.
